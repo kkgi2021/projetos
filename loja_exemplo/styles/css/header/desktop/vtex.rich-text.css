@@ -1,0 +1,23 @@
+.paragraph--text__top-bar{
+    font-size: 16px;
+    color:cornsilk;
+}
+ 
+.wrapper--email__top-bar,
+.wrapper--text__top-bar{
+
+    margin-right: 30px;
+}
+
+.wrapper--text__top-bar{
+    height: 44px;
+    display:flex;
+    align-items: center;
+}
+
+
+.paragraph--text__top-bar,
+.wrapper--cart__top-bar{
+    margin-right: 0;
+}
+

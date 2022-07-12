@@ -4,39 +4,80 @@
             "blockClass": "wrapper__top-bar"
         },
         "children": [
-            "rich-text#email-text",
-            "rich-text#phone-text",
-            "rich-text#login-text", 
-            "rich-text#wishlist-text"
+            "flex-layout.col#left",
+            "flex-layout.col#right"
         ]
+    },
+    "flex-layout.col#left": {
+        "children": [
+            "rich-text#email-text",
+            "rich-text#phone-text"
+        ],
+        "props": {
+            "blockClass": [
+                "wrapper__col",
+                "wrapper__col-left"
+            ]
+        }
+    },
+    "flex-layout.col#right": {
+        "children": [
+            "rich-text#login-text",
+            "rich-text#favoritos-text",
+            "rich-text#cart-text"
+        ],
+        "props": {
+            "blockClass": [
+                "wrapper__col",
+                "wrapper__col-right"
+            ]
+        }
     },
     "rich-text#email-text": {
         "props": {
-            "blockClass": ["text__top-bar", "email__top-bar"],
+            "blockClass": [
+                "text__top-bar",
+                "email__top-bar"
+            ],
             "text": "![email](assets/icons/top-bar/emails_write.png) cacagimenis@gmail.com"
-        }
-        
-    },
-    "rich-text#phone-text": {
-        "props": {
-            "blockClass": ["text__top-bar", "phone__top-bar"],
-            "text": "![phone](assets/icons/top-bar/phone_write.png) +55 (91) 9876-5432"
-        }
-        
-    },
-    
-    "rich-text#login-text":{
-        "props":{
-            "blockClass":["text__top-bar", "login__top-bar"],
-            "text": "Login ![login](assets/icons/top-bar/login_write.png)"
         }
     },
 
-    "rich-text#wishlist-text":{
-        "props":{
-        "blockClass":["test__top-bar", "wishlist__top-bar"],
-        "text":"Wishlist ![wishlist](assets/icons/top-bar/wishlist_write.png)"
+    "rich-text#phone-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "phone__top-bar"
+            ],
+            "text": "![phone](assets/icons/top-bar/phone_write.png) +55 (91) 9876-5432"
+        }
+    },
+    
+    "rich-text#login-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "login__top-bar"
+            ],
+            "text": "Login ![login](assets/icons/top-bar/login_write.png)"
+        }
+    },
+    "rich-text#favoritos-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "favoritos__top-bar"
+            ],
+            "text": "favoritos ![favoritos](assets/icons/top-bar/favoritos_write.png)"
+        }
+    },
+    "rich-text#cart-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar",
+                "cart__top-bar"
+            ],
+            "text": "cart ![cart](assets/icons/top-bar/cart_write.png)"
         }
     }
-    
 }
