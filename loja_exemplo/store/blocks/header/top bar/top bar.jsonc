@@ -13,14 +13,14 @@
     "rich-text#email-text": {
         "props": {
             "blockClass": ["text__top-bar", "email__top-bar"],
-            "text": "![email](assets/fonts/emails.png) cacagimenis@gmail.com"
+            "text": "![email](assets/icons/top-bar/emails_write.png) cacagimenis@gmail.com"
         }
         
     },
     "rich-text#phone-text": {
         "props": {
             "blockClass": ["text__top-bar", "phone__top-bar"],
-            "text": "![phone](assets/icons/top-bar/phone.png) +55 (91) 9876-5432"
+            "text": "![phone](assets/icons/top-bar/phone_write.png) +55 (91) 9876-5432"
         }
         
     },
@@ -28,14 +28,14 @@
     "rich-text#login-text":{
         "props":{
             "blockClass":["text__top-bar", "login__top-bar"],
-            "text": "Login ![login](assets/icons/top-bar/login.png)"
+            "text": "Login ![login](assets/icons/top-bar/login_write.png)"
         }
     },
 
     "rich-text#wishlist-text":{
         "props":{
         "blockClass":["test__top-bar", "wishlist__top-bar"],
-        "text":"Wishlist ![wishlist](assets/icons/top-bar/wishlist.png)"
+        "text":"Wishlist ![wishlist](assets/icons/top-bar/wishlist_write.png)"
         }
     }
     
